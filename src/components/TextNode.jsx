@@ -1,6 +1,6 @@
 // src/components/TextNode.jsx
 import React from 'react';
-import { Handle } from 'react-flow-renderer';
+import { Handle } from 'reactflow';
 
 const TextNode = ({ data }) => {
   return (
@@ -13,3 +13,4 @@ const TextNode = ({ data }) => {
 };
 
 export default TextNode;
+      
